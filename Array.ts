@@ -1,37 +1,12 @@
-function compareString(a, b) {
-    String a = "AKA";
-    Sting b = "AKASHI"
+function joinArrayRemoveDuplicate(arrayA, arrayB) {
+    let buah1 = "apel" "anggur";
+    let buah2 = "lemon" "leci" "nanas";
+    console.log(joinArrayRemoveDuplicate(["apel", "anggur"], ["lemon", "leci", "nanas"]));
 
-    if (a.equals(b) == 0)
-    console.log(" ")
+    let hp1 = "samsung" "apple";
+    let hp2 = "apple" "sony" "xiaomi";
+    console.log(joinArrayRemoveDuplicate(["samsung", "apple"], ["apple", "sony", "xiaomi"]));
 
-    String a = "KANGAROO";
-    Sting b = "KANG"
-
-    if (a.equals(b) == 0)
-    console.log(" ")
-
-    String a = "KI";
-    Sting b = "KIJANG"
-
-    if (a.equals(b) == 0)
-    console.log(" ")
-
-    String a = "KUPU-KUPU";
-    Sting b = "KUPU"
-
-    if (a.equals(b) == 0)
-    console.log(" ")
-
-    String a = "ILALANG";
-    Sting b = "ILA"
-
-    if (a.equals(b) == 0)
-    console.log(" ")
-
-    console.log(compareString("AKA", "AKASHI"))
-    console.log(compareString("KANGAROO", "KANG"))
-    console.log(compareString("KI", "KIJANG"))
-    console.log(compareString("KUPU-KUPU", "KUPU"))
-    console.log(compareString("ILALANG", "ILA"))
-}
+    let buah1 = "football" "basketball";
+    let buah2 = "basketball" "football" ;
+    console.log(joinArrayRemoveDuplicate(["football", "basketball"], ["basketball", "football"]));
